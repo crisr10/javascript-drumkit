@@ -1,0 +1,12 @@
+.keys {
+	display: inline-block;
+	margin-left: 300px;
+	margin-top: 300px;
+}
+
+.key {
+	display: inline-block;
+	padding: 30px;
+	margin: 5px;
+	background-color: black;
+}
