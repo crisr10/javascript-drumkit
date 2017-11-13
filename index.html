@@ -54,17 +54,7 @@
 	<audio data-key="75" src="sounds/sound8.mp3"></audio>
 	<audio data-key="76" src="sounds/sound9.mp3"></audio>
 
-	<script>
-		window.addEventListener('keydown', function(e) {
-			const audio = document.querySelector(`audio[data-key="${e.keyCode}"`);
-			const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
-			if(!audio) return; // stop the function from running all together
-			audio.currentTime = 0 // rewind to the start
-			audio.play();
-
-			key.classList.add('playing');
-		});
-	</script>
+	<script src="js/logic.js"></script>
 </body>
 </html>
 
